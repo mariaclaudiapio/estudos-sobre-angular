@@ -17,6 +17,9 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { AppRoutingModule } from './app-routing.module';
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 
 @NgModule({
@@ -28,7 +31,8 @@ import { ForDirective } from './directives/for.directive';
     HomeComponent,
     ProductCrudComponent,
     RedDirective,
-    ForDirective
+    ForDirective,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +40,10 @@ import { ForDirective } from './directives/for.directive';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule, 
-    MatCardModule, AppRoutingModule
+    MatCardModule, 
+    AppRoutingModule,
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
