@@ -12,23 +12,13 @@
     },
     {
       "id": 3,
-      "name": "Sansumg S20+",
-      "price": 5000.89
+      "name": "Sansumg S20+ Plus Ultra",
+      "price": "7520.89"
     },
     {
-      "name": "Veio do Formulário",
-      "price": "9,99",
-      "id": 4
-    },
-    {
-      "name": "Geladeira",
-      "price": "1890,44",
+      "name": "Caneta Pilot",
+      "price": "4.50",
       "id": 5
-    },
-    {
-      "name": "Notebook",
-      "price": "3567.97",
-      "id": 6
     }
   ]
 }
